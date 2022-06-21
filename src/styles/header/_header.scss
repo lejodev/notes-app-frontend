@@ -1,0 +1,13 @@
+.header {
+  width: 100vw;
+  height: 10vh;
+  background-color: aqua;
+  box-sizing: border-box;
+  text-align: center;
+  .logo {
+    font-size: 2.2em;
+    font-family: "Heebo", sans-serif;
+    font-family: "Lobster", cursive;
+    font-family: "Open Sans", sans-serif;
+  }
+}

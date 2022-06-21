@@ -1,0 +1,39 @@
+.start {
+  width: 90vw;
+  height: 100vh;
+  background-color: cadetblue;
+  display: flex;
+  margin: 0 auto;
+  box-sizing: border-box;
+  // margin: 10;
+  .login-register {
+    width: 35%;
+    background-color: beige;
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    padding: 0 2vw;
+    position: relative;
+    .login,
+    .register {
+      margin: auto 0;
+      .title {
+        position: absolute;
+        width: fit-content;
+        top: 8%;
+        left: 0;
+        padding: 0.5vw 2vw;
+        background-color: rgb(203, 221, 255);
+        border-top-right-radius: 0.5em;
+        border-bottom-right-radius: 0.5em;
+        font-family: "Heebo", sans-serif;
+        font-family: "Lobster", cursive;
+        font-family: "Open Sans", sans-serif;
+      }
+    }
+  }
+  .image {
+    width: 65%;
+    background-color: cadetblue;
+  }
+}
